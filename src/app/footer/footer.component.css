@@ -1,0 +1,51 @@
+.footer {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #55400C;
+   color: #F1DBA2;
+}
+.footer p {
+   font-size: 12pt;
+}
+.footerInfo {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap:60px;
+   background-color: #665324;
+   padding: 10px 0;
+}
+.footerSection {
+   width: 33%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.infoTitle {
+   font-size: 18pt;
+   font-weight: bold;
+   color:goldenrod;
+}
+.infoLogin {
+   cursor: pointer;
+   text-decoration: none;
+   color: #F1DBA2;
+}
+.infoLogin:hover {
+   text-decoration: underline;
+   color:goldenrod;
+}
+.copyright {
+   padding: 15px 30px;
+}
+
+.author {
+   color:goldenrod;
+   font-weight: bold;
+}
+

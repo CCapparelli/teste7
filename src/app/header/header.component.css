@@ -1,0 +1,56 @@
+/* header.component.css */
+#root {
+  --corDestaque:goldenrod;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #55400C;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.logo a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.logo p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  color: goldenrod;
+}
+.logo img {
+    max-height: 50px;
+}
+.nav-links a {
+    color: #F1DBA2;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: goldenrod;
+}
+
+.divRight, .nav-social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:5px;
+}
+.nav-social-links img {
+  width: 24px;
+  transition: 0.4s;
+}
+.nav-social-links img:hover {
+  width: 32px;
+}

@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+/*https://www.colorxs.com/palette/hex/55400c-816213-ae8319-daa520-e4b849-ebc975-f1dba2?scheme=monochromatic*/
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#root {
+    --cor-destaque:#ffdd57;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+html { scroll-behavior: smooth; }
+body { color: #55400C; }
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+label {
+    text-align: start;
+}
+.section {
+    margin: 0 auto;
+    padding: 30px;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.topSpacer {
+    height: 80px;
+    position: sticky;
+    z-index: 1;
+    display: hidden;
+}
+
+
+
